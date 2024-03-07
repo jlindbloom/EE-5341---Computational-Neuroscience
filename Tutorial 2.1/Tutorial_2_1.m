@@ -190,7 +190,7 @@ xlabel('I_{app}');
 ylabel('Firing Rate (Hz)');
 saveas(f4, 'Simulated_fI_Curve_with_Noise.png');
 
-% It apears that an increase in the parameter sigma, which is proportional
+% It appears that an increase in the parameter sigma, which is proportional
 % to the standard deviation of the voltage noise, leads to an increase in
 % the average firing rate that is approximately linear with the increase in
 % sigma. However, after a point the increases in sigma appear to bend the
